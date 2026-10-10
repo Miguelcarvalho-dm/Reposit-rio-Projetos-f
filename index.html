@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br"
+<head>
+    <meta charset="UTF-8">
+    <title> Inscrição no curso</title>
+    <link rel="stylesheet" href="sala.css"
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Curso de Programação</h1>
+        <h3>Formulário de inscrição</h3>
+    </header>
+
+    <section>
+        <h2>Sobre o curso</h2>
+        <p>Este curso é para quem deseja aprender programação.</p>
+
+        <ul>
+            <li>Introdução à programação</li>
+            <li>HTML básico</li>
+            <li>CSS básico</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Preencha seus dados</h2>
+
+        <form method="get" action="obrigado.html">
+
+            <label>Nome:</label>
+            <input type="text" name="nome"
+            placeholder="Digite seu nome" required>
+
+            <label>E-mail:</label>
+            <input type="email" name="email"
+            placeholder="Digite seu e-mail" required>
+
+            <label>Idade:</label>
+            <input type="number" name="idade"
+            placeholder="Digite sua idade" required>
+
+            <label>Assunto que deseja aprender:</label>
+            <select name="assunto" required>
+                <option value="">Escolha uma opção</option>
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="Programação">Programação</option>
+            </select>
+
+            <label>Mensagem:</label>
+            <textarea name="mensagem"
+            placeholder="Escreva uma mensagem" required></textarea>
+
+            <p>
+                <label>Concordo com os termos de inscrição</label>
+                <input type="checkbox" name="termo"
+                value="sim" required>
+            </p>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Apagar">
+
+        </form>
+    </section>
+
+    <footer>
+        <p>Trabalho de HTML e CSS</p>
+    </footer>
+
+</body>
+</html>

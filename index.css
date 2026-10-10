@@ -1,0 +1,46 @@
+
+body {
+    background-color: #eeeeee;
+    font-family: Arial;
+    color: #222222;
+}
+
+header {
+    background-color: #1e4778;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 95%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+textarea {
+    height: 80px;
+}
+
+footer {
+    background-color: #1e4778;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
